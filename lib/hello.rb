@@ -4,7 +4,7 @@ def hello_t(names)  #block  { |aName| puts aName }
       yield(name)   #block(name)
     end
   else
-    puts "error message"
+    puts "Hey! No block was given!"
   end
   return names
 end
