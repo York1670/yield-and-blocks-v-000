@@ -5,6 +5,7 @@ def hello_t(names)
     new_hello << name.upcase
   end
   puts new_hello
+  return names
 end
 
 # call your method here!
