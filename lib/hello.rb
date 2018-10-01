@@ -4,7 +4,7 @@ def hello_t(names)
     puts name
   end
   #puts new_hello
-  #eturn names
+  return names
 end
 
 # call your method here!
