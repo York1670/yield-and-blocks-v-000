@@ -1,11 +1,10 @@
 def hello_t(names)
   new_hello = []
   names.each do |name|
-    new_hello << name.upcase
     puts name.upcase
   end
   #puts new_hello
-  return names
+  #eturn names
 end
 
 # call your method here!
