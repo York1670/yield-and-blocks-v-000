@@ -4,8 +4,7 @@ def hello_t(names)
   names.each do |name|
     new_hello << name
   end
-  puts new_hello.upcase
-  return names
+  puts new_hello
 end
 
 # call your method here!
