@@ -1,5 +1,4 @@
-def hello_t(names)
-  new_hello = []
+def hello_t(names) 
   names.each do |name|
     yield(name)
   end
