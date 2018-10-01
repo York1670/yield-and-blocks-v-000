@@ -2,8 +2,8 @@ def hello_t(names)
 
   new_hello = []
   names.each do |name|
-    name.upcase
-    new_hello << name
+    new_name = name.upcase
+    new_hello <<
   end
   puts new_hello
   return names
