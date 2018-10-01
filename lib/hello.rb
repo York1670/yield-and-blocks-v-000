@@ -1,10 +1,10 @@
 def hello_t(names)
 
-  hello_t = []
+  new_hello = []
   names.each do |name|
-    hello_t << name
+    new_hello << name
   end
-  puts hello_t
+  puts new_hello
   return
 end
 
